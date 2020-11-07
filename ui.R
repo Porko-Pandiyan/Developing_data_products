@@ -13,7 +13,7 @@ shinyUI(
     navbarPage("Porko Pandiyan",
                tabPanel("Analysis",
                         fluidPage(
-                            titlePanel("The relationship between variables and miles per gallon (MPG)"),
+                            titlePanel("Fuel Economy vs Variables"),
                             sidebarLayout(
                                 sidebarPanel(
                                     selectInput("variable", "Variable:",
